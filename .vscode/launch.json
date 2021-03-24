@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "lldb",
+        "request": "launch",
+        "name": "Launch",
+        "args": [],
+        "program": "${workspaceFolder}/.vscode/hallo_rust/main",
+        "windows": {
+          "program": "${workspaceFolder}/.vscode/hallo_rust/main.rs"
+        },
+        "cwd": "${workspaceFolder}",
+        "stopOnEntry": false,
+        "sourceLanguages": [
+          "rust"
+        ]
+      }
+    ]
+  }
